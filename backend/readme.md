@@ -43,7 +43,7 @@ The service provide is a simple singleton wrapper as shown below:
 	    }
 	}
 
-If you look at the service provide, it uses $_ENV, these are variables available in the `.env` file. When you clone this repo, you do not get `.env`, but rather `.env.example`. Simple rename `.env.example` to `.env`, and edit the file accordingly. Here are the variables inside the file that are important to the FileMaker Server connection:
+If you look at the service provider, it uses $_ENV, these are variables available in the `.env` file. When you clone this repo, you do not get `.env`, but rather `.env.example`. Simple rename `.env.example` to `.env`, and edit the file accordingly. Here are the variables inside the file that are important to the FileMaker Server connection:
 
 	FILEMAKER_SERVER=server
 	FILEMAKER_DATABASE=Contacts
